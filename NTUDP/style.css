@@ -1,0 +1,516 @@
+/* 
+Use the following CSS rules to specify these families:
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* General */
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+    
+}
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+.container{
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+   
+}
+/* /General */
+
+/* Header */
+.header{
+    
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+   
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    border-bottom: 2px #093864 solid;
+   
+    
+}
+.header__logo{
+    width: 100px;
+    height: 100px;
+    
+}
+.header__nav{
+    
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.nav__link{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    color:#093864;
+}
+.nav__link:hover{
+    transition: .1s linear;
+    
+    font-size: 22px;
+    
+}
+.intro{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.intro__inner{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+   
+    padding-top: 120px;
+    font-family: 'Open Sans', sans-serif;
+    color: #093864;
+    display: block;
+    
+}
+.intro__title{
+    font-size: 44px;
+    
+    font-weight: 700;
+    
+}
+.intro__subtitle{
+    font-size: 32px;
+    font-weight: 400;
+    color: #035f8e;
+    text-transform: uppercase;
+}
+.button{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+   
+    background-color: #093864;
+    color: #fff;
+    font-size: 13px ;
+    font-weight: 600;
+    padding: 14px 40px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.button:hover{
+    background-color: #035f8e;
+    transition: .2s;
+}
+
+/* Galery */
+
+.galery{
+    display: flex;
+    margin-top: 10px;
+    
+    
+}
+.galery__item{
+    position: relative;
+    width: 33.33333%;
+    height: 420px;
+    overflow: hidden;
+    border: #fff 2px solid;
+}
+
+
+.galery__img{
+    position: relative;
+    transform: translate3d(-50%, -35%,0);
+    top: 50%;
+    left: 50%;
+}
+
+.galery__window{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(3,95,142,.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    color: white;
+    opacity: .6;
+}
+.galery__window:hover{
+    opacity: 0;
+    transition: .2s;
+}
+.galery__title{
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.galery__text{
+    font-weight: 400;
+}
+
+
+/* Faculties */
+
+.faculty{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.faculty__inner{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.main__title{
+    font-size: 42px;
+    text-transform: uppercase;
+    width: 100%;
+    padding-bottom: 35px;
+    color: #093864;
+    font-weight: 700;
+}
+.faculty__item{
+    margin-top: 40px;
+    width: 25%;
+    text-align: center;
+    height: 250px;
+}
+
+.faculty__img{
+    width: 100px;
+    height: 100px;
+}
+.faculty__img:hover{
+    transition: .3s;
+    width: 120px;
+    height: 120px;
+    
+}
+
+.faculty__title{
+    font-weight: 700;
+    font-size: 18px;
+    color: #093864;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    height: 50px;
+   
+}
+
+
+
+
+.faculty__text{
+    font-weight: 400;
+    font-size: 15px;
+    color: #035f8e;
+    margin: 0 5px;
+    
+}
+/* /Faculty */
+
+/* FIT */
+.fit{
+    text-align: center;
+    height: 620px;
+    padding-top: 10px;
+    
+    
+}
+.main__subtitle{
+    color: #035f8e;
+    font-size: 24px;
+    margin-top: -20px;
+    padding-bottom: 25px;
+}
+
+.fit__logo{
+    width: 150px;
+    height: 170px;
+}
+.fit__inner{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.fit__item{
+    width: 25%;
+    margin: 0 5px;
+}
+.circle__img{
+    border-radius: 100%;
+    width: 90%;
+    height: 250px;
+    margin-bottom: 5px;
+    
+}
+.fit__item:hover{
+    margin-top: 10px;
+    transition: .2s;
+}
+.item__title{
+    font-size: 34px;
+    font-weight: 700;
+    color: #093864;
+    margin-bottom: 5px;
+}
+.item__full__title{
+    color: #035f8e;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    
+    
+}
+.item__specialities{
+    font-family: 'Open Sans', sans-serif;   
+    font-weight: 600;
+    color: #093864;
+}
+
+/* /FIT */
+
+
+/* Education */
+
+.education{
+    height: 500px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: white;
+    
+}
+.education__inner{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main__title__ed{
+    font-size: 42px;
+    text-transform: uppercase;
+    width: 100%;
+    padding-bottom: 35px;
+    color: #093864;
+    font-weight: 700;
+    
+}
+.education__item_1{
+    opacity: .9;
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    background: url(../NTUDP/images/education/magistr.jpg);
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+
+.education__item_2{
+    opacity: .9;
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    background: url(../NTUDP/images/education/contract\ 3.jpg);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.education__title{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 42px;
+    padding-top: 150px;
+    -webkit-text-stroke: #093864 1.5px;
+}
+
+.education__bottom{
+    height: 150px;
+}
+.bottom__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.education__text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+   
+}
+.education__link{
+    font-size: 22px;
+    font-weight: 400;
+    color: #035f8e;
+    text-decoration: none;
+    
+    
+    
+}
+.education__link:hover{
+    font-size: 24px;
+    color: #093864;
+    transition: .2s;
+    
+    
+}
+
+
+
+
+/* /Education */
+
+/* Studlife */
+
+.studlife{
+    text-align: center;
+    height: 550px;
+}
+.studlife__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.studlife__item{
+    width: 33.33333%;
+    color: #093864;
+    margin: 0 5px;
+    
+    
+}
+.studlife__title{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.studlife__img{
+    
+    width: 100%;
+    height: 270px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.studlife__item:hover{
+    margin-top: 10px;
+    transition: .2s;
+    opacity: 1;
+}
+
+.studlife__text{
+    display: flex;
+    flex-direction: column;
+}
+.studlife__link{
+    text-decoration: none;
+    color: #035f8e;
+    font-size: 20px;
+
+}
+.studlife__link:hover{
+    transition: .1s;
+    color: #093864;
+    font-size: 22px;
+}
+/* /Studlife */
+
+
+/* Footer */
+.footer__up{
+    background-color: #25aae2;
+    height: 10px;
+}
+.footer__mid{
+    height: 10px;
+    background-color: #035f8e;
+}
+.footer__down{
+    height: 10px;
+    background-color:#093864;
+    
+}
+
+.footer{
+    text-align: center;
+    height: 100px;
+    color: #093864;
+    margin-top: 10px;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__part{
+    width: 33.33333%;
+    max-width: 240px;
+    
+}
+.footer__social{
+    display: block;
+    align-items: center;
+    margin-top: 15px;
+}
+.social__img{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+.social__img:hover{
+    transition: .2s;
+    width: 30px;
+    height: 30px;
+    
+}
+.footer__title{
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin: 10px 0;
+    
+}
+.footer__text{
+    font-weight: 600;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+.copyright__text{
+    font-size: 18px;
+    margin-top: 5px;
+    color: #093864;
+    padding-bottom: 5px;
+}
