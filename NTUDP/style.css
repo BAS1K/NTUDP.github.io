@@ -181,6 +181,82 @@ body{
 .galery__text{
     font-weight: 400;
 }
+/* end of galery */
+
+/* poster */
+
+.poster{
+    height: 600px;
+    text-align: center;
+    margin-top: 25px;
+}
+.poster__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.poster__item{
+    width: 25%;
+    color: #093864;
+
+}
+.poster__item:hover{
+    transition: .2s;
+    padding-top: 10px;
+}
+.img__poster{
+    height: 400px;
+    border: #035f8e 5px solid;
+}
+.poster__text{
+    margin-top: 10px;
+    font-size: 20px;
+   
+}
+
+/* /poster */
+
+/* news */
+.news{
+    height: 650px;
+    text-align: center;
+    color: #035f8e;
+    font-size: 14px;
+}
+.news__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.news__item{
+    width: 46%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+    
+}
+.news__item:hover .img__news{
+    transition: .2s;
+    opacity: 1;
+}
+
+.img__news{
+    width: 200px;
+    height: 150px;
+    border: #093864 2px solid;
+    opacity: .7;
+    
+}
+.news__title{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #093864;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* /news */
 
 
 /* Faculties */
