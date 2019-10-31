@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    background-color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+/* end of general settings */
+
+/* container */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+    
+/* end of container */
+
+/* header */
+.header{
+    text-align: center;
+    color: white;
+    background-color: #035f8e;
+   
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #035f8e;
+}
+.header__text{
+    margin-top: 35px;
+    margin-right: 200px;
+}
+.logo__img{
+    width: 150px;
+    height: 150px;
+    
+}
+.header__title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.header__subtitle{
+    opacity: .8;
+}
+.header__subtitle:hover{
+    opacity: 1;
+}
+/* end of header */
+
+/* nav */
+.nav{
+    text-align: center;
+    height: 40px;
+    color: #fff;
+    background-color: #3399ff;
+    
+    border-bottom: #035f8e 3px solid;
+    /*
+    border-top: #035f8e 3px solid;
+    */
+
+    /*
+    margin-bottom: 10px;
+    */
+    
+}
+.nav__inner{
+   display: flex;
+   justify-content: space-between; 
+   text-transform: uppercase;
+   align-items: center;
+   background-color: #3399ff;  
+}
+.nav__link{
+    padding-top: 10px;
+    height: 40px;
+    width: 20%;
+    font-weight: 700;
+    border-left: #035f8e 3px solid;
+    border-bottom: #035f8e 3px solid;
+}
+.current__link{
+    background-color:#fff;
+    color: #3399ff;
+    padding-top: 10px;
+    height: 40px;
+    width: 20%;
+    font-weight: 700;
+    border-left: #035f8e 3px solid;
+    border-bottom: #035f8e 3px solid;
+}
+.current__link:hover{
+    transition: .2s;
+    color:#3399ff;
+    background-color: #fff;
+}
+
+.nav__link:last-child{
+    border-right: #035f8e 3px solid;
+}
+
+.nav__link:hover{
+    transition: .2s;
+    color:#3399ff;
+    background-color: #fff;
+}
+/*  end of nav */
+
+/*  */
+
+/*  */
+/* abit */
+.abit{
+    height: 410px;
+}
+/* /abit */
+
+/* footer */
+
+.footer{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    background-color: #035f8e;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+    text-align: center;
+}
+.footer__item{
+    width: 33.33333%;
+}
+.footer__title{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.footer__text{
+
+    margin-top: 10px;
+}
+.footer__social{
+    width: 40px;
+    height:40px;
+    margin: 5px 10px;
+    border: 1.5px solid white;
+    border-radius: 100px;
+    
+}
+.footer__social:hover{
+    border: 3px solid white;
+    transition: .2s;
+    
+}
