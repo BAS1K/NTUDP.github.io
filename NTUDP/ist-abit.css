@@ -130,13 +130,63 @@ a{
 /*  */
 /* abit */
 .abit{
-    height: 410px;
+    height: 100%;
+    margin-top: 15px;
 }
+.abit__inner{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.abit_item{
+    width: 45%;
+    height: 100%;
+}
+.abit__img{
+    width: 90%;
+    border: 5px solid #3399ff;
+    
+}
+.abit__title{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #035f8e;
+    padding-top: 1%;
+}
+.abit__text{
+    
+    font-size: 18px;
+    text-align: left;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+/*animation*/
+.abit__item:hover{
+    background-color: #3399ff;
+    color: #fff;
+    transition: .2s;
+    border-radius: 1%;
+}
+.abit__item:hover .abit__img{
+    border: 5px solid #035f8e;
+    border-radius: 1%;
+    
+}
+.abit__item:hover .abit__title{
+    color: #fff;
+}
+
+
 /* /abit */
 
 /* footer */
 
 .footer{
+    margin-top: 30%;
     font-family: 'Roboto', sans-serif;
     margin-top: 10px;
     background-color: #035f8e;
