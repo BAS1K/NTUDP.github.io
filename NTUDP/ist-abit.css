@@ -123,6 +123,14 @@ a{
     color:#3399ff;
     background-color: #fff;
 }
+.main__title{
+    padding-top: 10px;
+    text-align: center;
+    color: #035f8e;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
 /*  end of nav */
 
 /*  */
@@ -130,8 +138,13 @@ a{
 /*  */
 /* abit */
 .abit{
+    padding-bottom: 1%;
     height: 100%;
     margin-top: 15px;
+    background-image: url(../NTUDP/images/galery/intro__background-blur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .abit__inner{
     display: flex;
@@ -153,8 +166,9 @@ a{
     margin-bottom: 10px;
     font-size: 30px;
     font-weight: 700;
-    color: #035f8e;
-    padding-top: 1%;
+    color: #000;
+    
+    
 }
 .abit__text{
     
@@ -186,9 +200,9 @@ a{
 /* footer */
 
 .footer{
-    margin-top: 30%;
+    
     font-family: 'Roboto', sans-serif;
-    margin-top: 10px;
+    
     background-color: #035f8e;
     color: #fff;
     font-size: 20px;
