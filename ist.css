@@ -1,0 +1,265 @@
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Roboto', sans-serif;
+/
+/* general settings */
+body{
+    margin: 0;
+    background-color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    min-width: 1200px;
+    
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+/* end of general settings */
+
+/* container */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+    
+/* end of container */
+
+/* header */
+.header{
+    text-align: center;
+    color: white;
+    background-color: #035f8e;
+   
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #035f8e;
+}
+.header__text{
+    margin-top: 35px;
+    margin-right: 200px;
+}
+.logo__img{
+    width: 150px;
+    height: 150px;
+    
+}
+.header__title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.header__subtitle{
+    opacity: .8;
+}
+.header__subtitle:hover{
+    opacity: 1;
+}
+/* end of header */
+
+/* nav */
+.nav{
+    text-align: center;
+    height: 40px;
+    color: #fff;
+    background-color: #3399ff;
+    display: wrap;
+    flex-wrap: wrap;;
+    border-bottom: #035f8e 3px solid;
+    /*
+    border-top: #035f8e 3px solid;
+    */
+
+    /*
+    margin-bottom: 10px;
+    */
+    
+}
+.nav__inner{
+   display: flex;
+   justify-content: space-between; 
+   text-transform: uppercase;
+   align-items: center;
+   background-color: #3399ff;
+  
+  
+  
+   
+}
+.current__link{
+    background-color:#fff;
+    color: #3399ff;
+    padding-top: 10px;
+    height: 40px;
+    width: 20%;
+    font-weight: 700;
+    border-left: #035f8e 3px solid;
+    border-bottom: #035f8e 3px solid;
+}
+.nav__link{
+    padding-top: 10px;
+    height: 40px;
+    width: 20%;
+    font-weight: 700;
+    border-left: #035f8e 3px solid;
+    border-bottom: #035f8e 3px solid;
+    
+
+
+}
+.nav__link:last-child{
+    border-right: #035f8e 3px solid;
+}
+.nav__link:hover{
+    transition: .2s;
+    color:#3399ff;
+    background-color: #fff;
+}
+/* end of nav */
+
+/* galery */
+.galery{
+    
+    display: table;
+    min-height: 530px;
+    width: 100%;
+    background: url(../NTUDP/Love-Coding/video.mp4);
+    
+}
+.wrap__block{
+   display: table-cell;
+    
+    vertical-align: middle;
+    text-align: center;
+    
+}
+.galery__text{
+    color: #fff;
+    font-weight: 700;
+    font-size: 82px;
+}
+/* end of galery */
+
+
+/* news */
+.main__title{
+    padding-top: 10px;
+    text-align: center;
+    color: #035f8e;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.news{
+    height: auto;
+    text-align: center;
+    padding-top: 0;
+}
+.news__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.news__item{
+    
+    padding-bottom: 10px;
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+}
+.news__item:hover{
+    background-color: #3399ff;
+    transition: .3s;
+    color: #fff;
+   
+
+}
+.news__item:hover .news__title{
+    color:white;
+    font-size: 22px;
+}
+.news__item:hover .news__img{
+    transition: .3s;
+    border-radius: 10%;
+    border: 3px white solid;
+}
+.news__img{
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 150px;
+    width: 170px;
+    
+   
+}
+
+.news__text{
+    margin: 15px 10px;
+}
+.news__title{
+    color: #035f8e;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* end of news */
+
+
+/* footer */
+.footer{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    background-color: #035f8e;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+    text-align: center;
+}
+.footer__item{
+    width: 33.33333%;
+}
+.footer__title{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.footer__text{
+
+    margin-top: 10px;
+}
+.footer__social{
+    width: 40px;
+    height:40px;
+    margin: 5px 10px;
+    border: 1.5px solid white;
+    border-radius: 100px;
+    
+}
+.footer__social:hover{
+    border: 3px solid white;
+    transition: .2s;
+    
+}
+/* end of footer */
