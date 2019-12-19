@@ -18,7 +18,7 @@ body{
     margin: 0;
     font-family: 'Raleway', sans-serif;
     background-color: #fff;
-    
+    min-width: 1200px;
 }
 *,
 *:before,

@@ -7,6 +7,7 @@ body{
     margin: 0;
     background-color: #fff;
     font-family: 'Ubuntu', sans-serif;
+    min-width: 1200px;
     
 }
 h1,h2,h3,h4,h5,h6,p{
@@ -165,7 +166,7 @@ a{
     padding-bottom: 30px;
 }
 .news{
-    min-height: 85vh;
+    height: auto;
     text-align: center;
     padding-top: 0;
 }
