@@ -2,6 +2,7 @@ body{
     margin: 0;
     background-color: #fff;
     font-family: 'Ubuntu', sans-serif;
+    min-width: 1200px;
     
 }
 h1,h2,h3,h4,h5,h6,p{
@@ -133,7 +134,7 @@ a{
     
     width: 100%;
     
-    min-height: 90vh;
+    height:auto;
     font-size: 22px;
     font-weight: 700;
     color: #035f8e;
