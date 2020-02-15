@@ -218,6 +218,9 @@ a{
     font-size: 20px;
     margin-bottom: 5px;
 }
+.news__subtitle{
+    opacity: 0.9;
+}
 
 /* end of news */
 

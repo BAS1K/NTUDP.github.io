@@ -153,22 +153,26 @@ a{
     align-items: center;
     text-align: center;
 }
-.abit_item{
-    width: 45%;
+.abit__item{
+    overflow: hidden;
+    width: 50%;
     height: 100%;
-}
-.abit__img{
-    width: 90%;
-    border: 5px solid #3399ff;
+    padding:0 5px;
     
 }
+
+.abit__img{
+   width: 80%;
+   border-radius: 1%;
+   height: 650px;
+   
+}
+
 .abit__title{
     margin-bottom: 10px;
     font-size: 30px;
     font-weight: 700;
     color: #000;
-    
-    
 }
 .abit__text{
     

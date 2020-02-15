@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="..//NTUDP/contacts.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Ubuntu:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="shortcut icon" href="../NTUDP/images/ist/favicon.ico">
+    
     <title>Кафедра інформаційних систем та технологій</title>
 </head>
 <body>
@@ -41,79 +42,53 @@
 
 <!-- contacts -->
 <div class="contacts">
-        <h1 class="main__title">Як нас знайти</h1>
+        <h1 class="main__title">Назва секції</h1>
     <div class="container">
         <div class="contacts__inner">
-            <div class="contacts__item">
-                <div id="map"> </div>
-            </div>
+            
 
-            <script>
-                // Initialize and add the map
-                function initMap() {
-                  // The location of Uluru
-                  var uluru = {lat: 48.4553546, lng: 35.0614913};
-                  // The map, centered at Uluru
-                  var map = new google.maps.Map(
-                      document.getElementById('map'), {zoom: 17, center: uluru});
-                  // The marker, positioned at Uluru
-                  var marker = new google.maps.Marker({position: uluru, map: map});
-                }
-                    </script>
-                    <!--Load the API from the specified URL
-                    * The async attribute allows the browser to render the page while the API loads
-                    * The key parameter will contain your own API key (which is not needed for this tutorial)
-                    * The callback parameter executes the initMap() function
-                    -->
-                    <script async defer
-                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRislT-GmVPrf7hUP4Vuy8scS-N_7NbyY&callback=initMap">
-                    </script>
 
-            <div class="contacts__item">
-                <div class="contacts__text">
-                    
-                </div>
-            </div>
+            
         </div>
     </div>
 </div>
 <!-- /contacts -->
 
 <!-- footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__inner">
-                <div class="footer__item">
-                    <div class="footer__text">
-                        <p class="footer__title">Наша адреса:</p>
-                        <p>пр. Яворницького 19</p>
-                        <p>(1 корпус, аудиторія 64)</p>
-                    </div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__item">
+                <div class="footer__text">
+                    <p class="footer__title">Наша адреса:</p>
+                    <p>пр. Яворницького 19</p>
+                    <p>(1 корпус, аудиторія 79)</p>
                 </div>
-                <div class="footer__item">
-                        <div class="footer__text">
-                            <p class="footer__title">Наші соцмережі:</p>
-                            <a href="https://www.instagram.com ">
-                                <img src="../NTUDP/images/ist/Instagram_icon.png" alt="" class="footer__social">
-                            </a>
-                            <a href="https://www.telegram.org ">
-                                <img src="../NTUDP/images/ist/telegram_PNG2.png" alt="" class="footer__social">
-                            </a>
-                            <a href="https://www.facebook.com">
-                                <img src="../NTUDP/images/ist/FB-f-Logo__blue_512.png" alt="" class="footer__social">
-                            </a>
-                        </div>
-                </div>
-                <div class="footer__item">
-                        <div class="footer__text">
-                            <p class="footer__title">Наші контакти</p>
-                            <p>+380 096 307 1940</p>
-                            <p>danya.basarab@gmail.com</p>
-                        </div>
-                </div>  
             </div>
+            <div class="footer__item">
+                    <div class="footer__text">
+                        <p class="footer__title">Наші соцмережі:</p>
+                        <a href="https://www.instagram.com ">
+                            <img src="../NTUDP/images/ist/Instagram_icon.png" alt="" class="footer__social">
+                        </a>
+                        <a href="https://www.telegram.org ">
+                            <img src="../NTUDP/images/ist/telegram_PNG2.png" alt="" class="footer__social">
+                        </a>
+                        <a href="https://www.facebook.com">
+                            <img src="../NTUDP/images/ist/FB-f-Logo__blue_512.png" alt="" class="footer__social">
+                        </a>
+                    </div>
+            </div>
+            <div class="footer__item">
+                    <div class="footer__text">
+                        <p class="footer__title">Наші контакти</p>
+                        <p>+380 50 671 22 68</p>
+                        <p>ist.nmu.org.ua</p>
+                    </div>
+            </div>  
         </div>
-    </footer>
-   
+    </div>
+</footer>
+
 </body>
 </html>
