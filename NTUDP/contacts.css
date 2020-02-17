@@ -126,7 +126,7 @@ a{
 .main__title{
     padding-top: 10px;
     text-align: center;
-   
+    color: #035f8e;
     font-weight: 700;
     font-size: 50px;
     padding-bottom: 30px;
@@ -136,36 +136,43 @@ a{
 /* contacts */
 .contacts{
     color: white;
-    height: 100vh;
+    height: auto;
     text-align: center;
-    background:url(../NTUDP/images/galery/2-korpus.jpg);
+    background:url(../NTUDP/images/galery/intro__background-blur.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 15px;
 }
 .contacts__inner{
     display: flex;
     justify-content: space-between;
 }
 .contacts__item{
-    width: 50%;
-    height: 90%;
-    max-height: 500px;
+    font-size: 20px;
+   
+}
+.contacts__text:hover{
+    background: #3399ff;
+    border-radius: 1%;
+    transition: .3s;
 }
 .contacts__text{
-    padding-top: 50px;
-    max-width: 300px;
-    max-height: 700px;
-    height: 50vh;
-    font-size: 25px;
-    font-weight: 600;
+    padding: 5px 5px;
+    margin: 5px 5px;
 }
-#map{
-    max-width: 300px;
-    max-height: 300px;
-    width: 100%;
-    height: 100%;
-    background: white;
+.contacts__img{
+    border-radius: 1%;
+    
 }
+.contacts__img:hover{
+    border:#035f8e 5px solid;
+    transition: .3s;
+}
+.map{
+    padding: 0;
+    margin: 0;
+}
+
 /* end of contacts */
 
 /* footer */

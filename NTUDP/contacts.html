@@ -42,14 +42,32 @@
 
 <!-- contacts -->
 <div class="contacts">
-        <h1 class="main__title">Назва секції</h1>
+        <h1 class="main__title">Контакти</h1>
     <div class="container">
         <div class="contacts__inner">
-            
+            <div class="contacts__item">
+                <div id="map" style="width:550px; height:550px ;" class="contacts__img"></div>
+                <div class="contacts__text">
+                <h3 style="padding-bottom: 15px; font-size: 24px; padding-top: 15px;">Адреса кафедри:</h3>
+                <p>пр. Д. Яворницького, 19, 1 корп., 2 поверх, ауд. 79</p> 
+                <p>місто Дніпро</p>
+               
+             </div>
+            </div>
+            <div class="contacts__item">
+                <img src="../NTUDP/images/map-fit v 4.1.2.jpg" alt="" style="width: 550px; height: 550px;" class="contacts__img">
+                <div class="contacts__text">
+                <h3 style="padding-bottom: 15px; font-size: 24px; padding-top: 15px;">Як доїхати?</h3>
+                <p>Трамвай №1 (зупинка "Історичний музей")</p>
+                <p>Автобуси №101А, №87Б</p>
+            </div>
+            </div>
 
-
-            
         </div>
+            
+            
+    
+        
     </div>
 </div>
 <!-- /contacts -->
@@ -90,5 +108,18 @@
     </div>
 </footer>
 
+<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+<script type="text/javascript">
+    var map;
+
+    DG.then(function () {
+        map = DG.map('map', {
+            center: [48.45566471637357,35.061213164001444],
+            zoom: 17
+        });
+
+        DG.marker([48.45566471637357,35.061213164001444]).addTo(map).bindPopup('Кафедра інформаційних систем та технологій (НТУ ДП")');
+    });
+</script>
 </body>
 </html>
