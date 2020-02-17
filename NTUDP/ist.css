@@ -8,6 +8,7 @@ body{
     background-color: #fff;
     font-family: 'Ubuntu', sans-serif;
     min-width: 1200px;
+   
     
 }
 h1,h2,h3,h4,h5,h6,p{
@@ -177,6 +178,18 @@ a{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+@media screen and (max-width: 500px){
+    div .news__item{
+        width: 80%;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 600px){
+    div .news__item{
+        width: 50%;
+        text-align: center;
+    }
+}
 .news__item{
     
     padding-bottom: 10px;
@@ -203,7 +216,7 @@ a{
 .news__img{
     margin-top: 10px;
     margin-left: 5px;
-    height: 150px;
+    height: 135px;
     width: 170px;
     
    

@@ -142,33 +142,46 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 15px;
+    
 }
 .contacts__inner{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
 .contacts__item{
     font-size: 20px;
    
 }
+/* @media screen and (max-width:400px){
+   div.contacts__item{
+        width: 100%;
+    }
+    div #map{
+        margin-left: 21%;
+    }
+} */
+
 .contacts__text:hover{
     background: #3399ff;
     border-radius: 1%;
     transition: .3s;
 }
 .contacts__text{
-    padding: 5px 5px;
+    padding: 10px 10px;
     margin: 5px 5px;
 }
 .contacts__img{
     border-radius: 1%;
+    border:#035f8e 5px solid;
     
 }
 .contacts__img:hover{
-    border:#035f8e 5px solid;
+    border:#3399ff 5px solid;
     transition: .3s;
 }
-.map{
+#map{
     padding: 0;
     margin: 0;
 }
