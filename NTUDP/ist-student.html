@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../NTUDP/ist-student.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Ubuntu:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="../NTUDP/ist.css">
+
+    
+
     <link rel="shortcut icon" href="../NTUDP/images/ist/favicon.ico">
     <meta name="viewport" content="width=1200px">
+
+    
+
     <title>Кафедра інформаційних систем та технологій</title>
 </head>
 <body>
@@ -26,13 +33,31 @@
     </header>
     <nav class="nav">
         <div class="container">
-            <div class="nav__inner">
-                <a href="ist.html" class="nav__link">На ГОЛОВНУ</a>
-                <a href="#" class="current__link">Студенту</a>
-                <a href="ist_teachers.html" class="nav__link">Викладачі</a>
-                <a href="ist-abit.html" class="nav__link">Абітурієнту</a>
-                <a href="contacts.html" class="nav__link">Адреса</a>
-            </div>
+            <ul>
+                <li class="nav__main__link"><a href="../NTUDP/ist.html" class="link">Головна</a>
+                    <ul class="submenu">
+                        <li class="nav__small__link"><a href="ist.html#news">Новини</a></li>
+                        <li class="nav__small__link"><a href="ist.html#history">Про факультет</a></li>
+                        <li class="nav__small__link"><a href="ist.html#partners">Наші партнери</a></li>
+                    </ul>
+                </li>
+                <li class="nav__main__link"><a href="../NTUDP/ist-student.html" class="link">Студенту</a>
+                    <ul class="submenu">
+                        <li class="nav__small__link"><a href="#" >Корисні файли</a></li>
+                        <li class="nav__small__link"><a href="#">Erasmus+</a></li>
+                        <li class="nav__small__link"><a href="#">Відкриті IT-курси</a></li>
+                    </ul>
+                </li>
+                <li class="nav__main__link"><a href="../NTUDP/ist_teachers.html" class="link">Викладачі</a></li>
+                <li class="nav__main__link"><a href="../NTUDP/ist-abit.html" class="link">Абітурієнту</a>
+                    <ul class="submenu">
+                        <li class="nav__small__link"><a href="#">ЗНО для вступу</a></li>
+                        <li class="nav__small__link"><a href="#">Чому ми навчаємо?</a></li>
+                        <li class="nav__small__link"><a href="#">Ким стане випускник?</a></li>
+                    </ul>
+                </li>
+                <li class="nav__main__link"><a href="../NTUDP/contacts.html" class="link">Адреса</a></li>
+            </ul>
         </div>
     </nav>
 <!-- end of nav -->
@@ -150,6 +175,32 @@
 
 <!-- end of student -->
 
+<div class="courses">
+    <h1 class="main__title">Відкриті IT-курси</h1>
+    <div class="container">
+       
+        <div id="slider-wrapper">
+            <div class="inner-wrapper">
+              <input checked type="radio" name="slide" class="control" id="Slide1" />
+              <label for="Slide1" id="s1"></label>
+              <input type="radio" name="slide" class="control" id="Slide2" />
+              <label for="Slide2" id="s2"></label>
+              <input type="radio" name="slide" class="control" id="Slide3" />
+              <label for="Slide3" id="s3"></label>
+              <input type="radio" name="slide" class="control" id="Slide4" />
+              <label for="Slide4" id="s4"></label>
+              <div class="overflow-wrapper">
+                <a class="slide" href=""><img src="../NTUDP/images/ist/slider_courses/1.jpg" /></a>
+                <a class="slide" href=""><img src="../NTUDP/images/ist/slider_courses/2.jpg" /></a>
+                <a class="slide" href=""><img src="../NTUDP/images/ist/slider_courses/3.jpg" /></a>
+                <a class="slide" href=""><img src="../NTUDP/images/ist/slider_courses/4.jpg" /></a>
+              </div>
+            </div>
+          </div>
+
+    </div>  
+</div>
+
 <!-- footer -->
 <footer class="footer">
     <div class="container">
@@ -186,5 +237,10 @@
     </div>
 </footer>
    
+<!-- bootstrap -->
+
+
+<!-- /bootstrap -->
+
 </body>
 </html>
