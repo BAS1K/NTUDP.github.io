@@ -256,6 +256,43 @@ a{
     
 }
 
+/* erasmus */
+.erasmus{
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.erasmus__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.erasmus__item{
+    width: 33.33333%;
+    height: auto;
+    margin: 0 10px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1%;
+    /* border: #3399ff 3px solid;*/
+}
+.erasmus__img{
+    width: 100%;
+    padding-bottom: 10px;
+    height: 250px;
+}
+ /* .erasmus__item:hover .erasmus__link{
+    color: #fff;
+    transition: .2s;
+} */
+
+ 
+.erasmus__link{
+    color: #000;
+}
+
 /* slider */
 .courses{
     height: auto;
@@ -396,3 +433,4 @@ a{
     float: left;
   }
 /* /slider */
+

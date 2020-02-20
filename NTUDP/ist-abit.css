@@ -152,6 +152,7 @@ a{
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 .abit__item{
     overflow: hidden;
@@ -165,6 +166,7 @@ a{
    width: 80%;
    border-radius: 1%;
    height: 650px;
+   border: #035f8e 3px solid;
    
 }
 
@@ -175,7 +177,7 @@ a{
     color: #000;
 }
 .abit__text{
-    
+    color: #fff;
     font-size: 22px;
     text-align: left;
     margin-left: 25%;
@@ -197,6 +199,7 @@ a{
 .abit__item:hover .abit__title{
     color: #fff;
 }
+
 
 
 /* /abit */
